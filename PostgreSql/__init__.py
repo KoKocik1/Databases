@@ -32,7 +32,7 @@ from .Service.user_service import create_user, get_user_by_id
 from .Cache.user_cache import UserCache
 
 # Middleware
-from .Middleware.middleware import update_db_user
+from .Middleware.middleware import ensure_user_in_db
 
 # Public API - what users should import
 __all__ = [
